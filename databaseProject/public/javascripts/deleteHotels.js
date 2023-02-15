@@ -1,4 +1,4 @@
-async function addHotel(url, hotelid) {
+async function deleteHotel(url, hotelid) {
     console.log(url, hotelid)
     await fetch(url, {
         method: "DELETE",

@@ -4,7 +4,7 @@ async function addHotel(url) {
     await fetch(url, {
         method: "POST",
         headers: {
-            "content-type": "application/json"
+            "Content-type": "application/json"
         },
         body: JSON.stringify({
             Name: name,
